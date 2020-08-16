@@ -26,12 +26,14 @@ header p {
 }
 
 img {
-    display: table-cell;
+   width: 50%;
+   height: 50%;
 }
 main {
     width: 90vw;
     margin: 0 auto;
     padding: 30px 20px;
+    min-height: calc(100vh - 163px - 64px);
 }
 
 article {
@@ -58,6 +60,22 @@ footer {
 
 
 @media screen and (max-width: 1068px) {
+
+    main {
+        min-height: calc(100vh - 408px - 88px);
+    }
+    img {
+        width: 45%;
+        height: 25%;
+
+    }
+}
+
+@media screen and (max-width: 1768px) {
+
+    main {
+        min-height: calc(100vh - 234px - 64px);
+    }
     img {
         width: 45%;
         height: 25%;
