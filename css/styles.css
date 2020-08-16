@@ -9,3 +9,58 @@ body {
     background-image: linear-gradient(to bottom, #00f2fe 0%, #4facfe 100%);
 }
 
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 30px;;
+}
+
+header p {
+    font-size: 22px;
+}
+
+img {
+    display: table-cell;
+}
+main {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+article {
+    margin-bottom: 0;
+}
+
+article h3 {
+    margin: 10px 0 25px;
+
+}
+
+article p {
+    margin-top: 16px;
+    line-height: 24px;
+
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+
+@media screen and (max-width: 1068px) {
+    img {
+        width: 45%;
+        height: 25%;
+
+    }
+}
