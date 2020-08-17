@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+html, body {
+    height: 100%;
+    position: relative;
+}
+
+
 body {
     font-family: 'Oswald', sans-serif;
     background-image: linear-gradient(to bottom, #00f2fe 0%, #4facfe 100%);
@@ -55,6 +61,7 @@ header p {
     text-align: center;
     background-color: #f1f1f1;
     object-fit: cover;
+    width: 500px;
 }
 
 img {
@@ -65,7 +72,10 @@ main {
     width: 90vw;
     margin: 0 auto;
     padding: 30px 20px;
-    min-height: calc(100vh - 183px - 64px);
+   /* min-height: calc(100vh - 1045px - 940px); */
+   position: relative;
+   min-height: 100vh;
+   padding-bottom: 150px;
 }
 
 article {
@@ -91,20 +101,65 @@ footer {
 }
 
 
-@media screen and (max-width: 1068px) {
+button {
+    background-color: blue;
+    color: white;
+    width: 75px;
+    height: 45px;
+    margin: 5%;
+   
+}
 
-    main {
-        min-height: calc(100vh - 408px - 88px);
-    }
+button:hover {
+    background-color: #4facfe;
+}
+
+@media screen and (max-width: 640px) {
+
+   
     img {
         width: 45%;
         height: 25%;
 
     }
+
+    .row {
+        padding-left: -15px;
+        margin: 0 -15px;
+    }
+    
+    header {
+        text-align: center;
+        background-color: #333;
+        color: #fff;
+        padding: 0;
+        width: 100%;
+    }
+    
+    header h1 {
+        font-size: 18px;
+        margin-bottom: 30px;
+        
+    }
+    
 }
 
 @media screen and (max-width: 1768px) {
 
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-color: blueviolet;
+    }
+    html, body {
+        height: 100%;
+        position: relative;
+    }
+    
     main {
         min-height: calc(100vh - 234px - 64px);
     }
@@ -113,4 +168,6 @@ footer {
         height: 25%;
 
     }
+
+    
 }
