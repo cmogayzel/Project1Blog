@@ -116,7 +116,9 @@ button:hover {
 
 @media screen and (max-width: 640px) {
 
-   
+    body {
+        background-color: blueviolet;
+    }
     img {
         width: 45%;
         height: 25%;
