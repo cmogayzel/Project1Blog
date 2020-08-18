@@ -2,6 +2,7 @@ body {
     background-image: url("../img/philippine_island.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Oswald', sans-serif;
 }
 
 h1 {
@@ -32,4 +33,44 @@ a::after {
 
 nav {
     border-bottom: 2px solid black;
+}
+
+.content {
+    padding-left: 15px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: max-content 400px 1fr;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+    object-fit: cover;
+    align-items: center;
+}
+
+.content p {
+    color: white;
+    justify-items: right;
+}
+
+.content h2 {
+    color: white;
+}
+
+.content h3 {
+    color: white;
 }
