@@ -78,3 +78,14 @@ footer {
     border: 1px solid darkgray;
     display: flex;
 }
+
+@media screen and (max-width: 910px) {
+    .card img {
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        height: 60%;
+    }
+}

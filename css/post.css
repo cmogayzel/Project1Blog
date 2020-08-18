@@ -76,3 +76,14 @@ nav {
 .content h3 {
     color: white;
 }
+
+@media screen and (max-width: 910px) {
+    .card img {
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 200px;
+    }
+}
