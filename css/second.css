@@ -1,0 +1,11 @@
+.secondcard {
+    float: center;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.secondcard img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
