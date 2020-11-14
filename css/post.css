@@ -1,7 +1,8 @@
+html {
+    background-color: blanchedalmond;
+}
+
 body {
-    background-image: url("../img/philippine_island.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -20,7 +21,7 @@ li {
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 a::after {
@@ -70,11 +71,21 @@ nav {
 }
 
 .content h2 {
-    color: white;
+    color: crimson;
 }
 
 .content h3 {
-    color: white;
+    color: royalblue;
+}
+
+h2 {}
+
+.bio {
+    color: black;
+}
+
+.info {
+    color: rebeccapurple;
 }
 
 @media screen and (max-width: 910px) {
